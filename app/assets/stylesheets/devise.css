@@ -32,3 +32,8 @@
 .btn-block {
   width: 100%;
 }
+
+#error_explanation {
+  margin-top: 20px;
+  color: red;
+}

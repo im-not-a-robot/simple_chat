@@ -9,6 +9,8 @@
     <div class="actions">
       <%= f.submit "Send reset password instructions", class: "btn btn-primary btn-block" %>
     </div>
+
+    <%= render "devise/shared/error_messages", resource: resource %>
   <% end %>
 
   <%= render "devise/shared/links" %>
