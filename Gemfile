@@ -58,4 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pg', '~> 1.4', '>= 1.4.3'
 gem 'devise'
+
 gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
